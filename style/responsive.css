@@ -1,0 +1,18 @@
+@media screen and (max-width:700px){ /*cuida da responsividade do logo Netflix e do menu, jogando o menu para baixo do logo*/
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{ /*cuida da responsividade dos botões Assistir agora e Mais Info*/
+        margin-top: 5px; /*cuida do espaçamento dos botões*/
+        width: 200px; /*cuida da largura dos botões*/
+        /*height: 60px; cuida da altura dos botões*/
+    }
+}
+
+@media screen and (min-width:1000px){ /*cuida da responsividade do site quando estiver na tela, com mínimo 1000px*/
+    .descricao{
+        width: 50%;
+    }
+}
